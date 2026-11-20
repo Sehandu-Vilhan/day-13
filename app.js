@@ -14,3 +14,6 @@ console.log(Customer);
 let item = new item;
 console.log(item);
 
+
+
+import { Customerlist,getsum  } from 
