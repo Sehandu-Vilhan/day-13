@@ -1,6 +1,6 @@
 
-import { Customer } from "module";
-
+import { Customer } from "model/Customer.js";
+import { item } from ".model/item.ja";
 
 
 
