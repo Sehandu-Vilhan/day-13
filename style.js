@@ -1,23 +1,20 @@
 
 function clickme() {
 
+    let id = document.getElementById("Customerid").value;
+    let name = document.getElementById("Customername").value;
+    let age = document.getElementById("Customerage").value;
+    let address = document.getElementById("Customeraddress").value;
 
+    let customers = JSON.parse(localStorage.getItem("customers")) || [];
 
-    var id = document.getElementById("Customerid").value;
-    var name = document.getElementById("Customername").value;
-    var age = document.getElementById("Customerage").value;
-    var address = document.getElementById("Customeraddress").value;
+        customers.push({
+            id: id,
+            name: name,
+            age: age,
+            address: address
+        });
 
-
-
-    var customers = JSON.parse(localStorage.getItem("customers")) || [];
-
-    customers.push({
-        id: id,
-        name: name,
-        age: age,
-        address: address
-    });
 
 
 
@@ -41,20 +38,26 @@ function clickme() {
 
 
 
+
+
+
+
+
+
 function clickview() {
+
+
     var customers = JSON.parse(localStorage.getItem("customers")) || [];
     var area = document.getElementById("customerTableArea");
+ 
 
-    if (customers.length === 0) {
-        area.innerHTML = "<center><p>No customers found</p></center>";
-        return;
-    }
-
-
-
+        if (customers.length === 0) {
+            area.innerHTML = "<center><p>No customers found</p></center>";
+            return;
+        }  
 
 
-    var table = "<center><br>";
+    let table = "<center><br>";
     table += "<table border='1' cellpadding='10' cellspacing='0'>";
     table += "<tr>";
     table += "<th>Customer ID</th>";
@@ -75,9 +78,10 @@ function clickview() {
         table += "</tr>";
     }
 
-
-    
     table += "</table></center>";
 
     area.innerHTML = table;
 }
+
+
+// localStorage.clear();
