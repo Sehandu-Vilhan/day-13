@@ -85,3 +85,21 @@ function clickview() {
 
 
 // localStorage.clear();
+
+
+// function clickdelete() {
+
+//     localStorage.clear();
+
+// }
+
+
+
+function clickdelete() {
+    localStorage.removeItem("customers");
+
+    var area = document.getElementById("customerTableArea");
+    if (area) {
+        area.innerHTML = "";
+    }
+}
