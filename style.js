@@ -1,42 +1,3 @@
-// localStorage.setItem("name", "kavesha");
-
-// let canme = localStorage.getItem("name");
-// console.log(canme);
-
-// const customerlist = [
-
-//     {
-//         id: "1",
-//         name: "saman",
-//         age: 30
-//     }
-
-//     ,{
-//         id: 2,
-//         name: "kamal",
-//         age: 30
-//     }
-
-//      ,{
-//         id: 3,
-//         name: "namal",
-//         age: 30
-//     } 
-
-//        ,{
-//         id: 4,
-//         name: "ranil",
-//         age: 30
-//     }
-
-// ]   
-
-// let arcustomer = JSON.stringify(customerlist);
-// localStorage.setItem("customerlist" , arcustomer);
-// let listcustomer = localStorage.getItem("customerlist")
-// console.log(JSON.parse(listcustomer));
-
-
 
 
 
@@ -96,3 +57,7 @@ function clickMe_H() {
 }
 
 
+
+
+
+//  localStorage.clear();
