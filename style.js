@@ -105,8 +105,3 @@ function clickdelete() {
 }
 
 
-
-grg
-ef grrffffffff
-
-gggggrg
