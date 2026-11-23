@@ -103,3 +103,12 @@ function clickdelete() {
         area.innerHTML = "";
     }
 }
+
+
+
+
+
+
+
+
+ffrfrfrwfrwff
