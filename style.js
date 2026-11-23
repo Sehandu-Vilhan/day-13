@@ -105,10 +105,3 @@ function clickdelete() {
 }
 
 
-
-      fffffffff  ffffffffff fffff    ffeffff
-      ff        ff   
-      falsefff fffffffr rfr  ffefef efggggggrgr
-      WebGL2RenderingContextr
-      rfrr
-      g
