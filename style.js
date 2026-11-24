@@ -114,4 +114,9 @@ ffrfrfrfrffrfff
 ffrfrfrfrffrffff
 ffrfrfrfrffrf
 removeEventListenerfrrg
-RegExprg
+RegExprgfeee
+MediaElementAudioSourceNodee
+MediaElementAudioSourceNodeefe
+MediaElementAudioSourceNodeefeee
+FileSystemFileEntryfe
+fef
