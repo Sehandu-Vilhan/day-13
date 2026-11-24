@@ -105,18 +105,3 @@ function clickdelete() {
 }
 
 
-fffff requestAnimationFramef
-falseff
-ff fgggrgrg gfefef efe fe f ffrfrfrfrffrf
-removeEventListenerfr
-ffrfrfrfrffrfr
-ffrfrfrfrffrfff
-ffrfrfrfrffrffff
-ffrfrfrfrffrf
-removeEventListenerfrrg
-RegExprgfeee
-MediaElementAudioSourceNodee
-MediaElementAudioSourceNodeefe
-MediaElementAudioSourceNodeefeee
-FileSystemFileEntryfe
-fef
