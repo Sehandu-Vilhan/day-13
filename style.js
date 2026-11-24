@@ -107,4 +107,7 @@ function clickdelete() {
 
 fffff requestAnimationFramef
 falseff
-ff fgggrgrg gfefef efe fe f ffrfrfrfr
+ff fgggrgrg gfefef efe fe f ffrfrfrfrffrf
+removeEventListenerfr
+ffrfrfrfrffrfr
+ffrfrfrfrffrf
